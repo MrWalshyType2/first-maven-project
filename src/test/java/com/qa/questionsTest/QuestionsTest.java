@@ -11,4 +11,9 @@ public class QuestionsTest {
 	public void addTest() {
 		assertEquals(50, q.add(25, 25));
 	}
+	
+	@Test
+	public void subtractTest() {
+		assertEquals(24, q.subtract(50, 26));
+	}
 }
